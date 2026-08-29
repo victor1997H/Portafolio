@@ -1,0 +1,17 @@
+# Entornos y secretos
+.env
+.env.*
+
+# editor
+.vscode/
+.idea/
+
+# sistema
+.DS_Store
+Thumbs.db
+
+# dependencias
+node_modules/
+
+# logs
+*.log
