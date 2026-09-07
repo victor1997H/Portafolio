@@ -27,8 +27,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "Automatización de procesos"
       ],
       tech: ["Angular", "TypeScript", "NestJS", "Node.js", "PostgreSQL", "Docker", "Traefik", "n8n"],
+      image: {
+        src: "assets/img/imagen de cobros predictivos.png",
+        alt: "Vista del Sistema de Cobros Predictivo",
+        width: "1304",
+        height: "783"
+      },
       captures:
-        "No se publican capturas ni datos reales de clientes en esta versión. El espacio visual queda preparado para reemplazarse por imágenes autorizadas."
+        "Captura pública del sistema con datos sensibles ocultos para proteger la privacidad."
     },
     dental: {
       title: "Sistema de Gestión para Consultorio Dental",
@@ -50,8 +56,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "Persistencia en base de datos"
       ],
       tech: ["Flutter", "Flask", "PostgreSQL", "API REST"],
+      image: {
+        src: "assets/img/agenda.jpg",
+        alt: "Vista del Sistema de Gestión para Consultorio Dental",
+        width: "720",
+        height: "1600"
+      },
       captures:
-        "No se incorporaron capturas públicas del sistema porque el repositorio actual no contiene imágenes reales verificables del proyecto."
+        "Captura real del proyecto integrada en el portafolio."
     },
     fertilizantes: {
       title: "Calculadora de Fertilizantes",
@@ -73,8 +85,14 @@ document.addEventListener("DOMContentLoaded", () => {
         "Presentación de resultados"
       ],
       tech: ["React Native", "Expo", "JavaScript"],
+      image: {
+        src: "assets/img/calculadora.png",
+        alt: "Vista de la Calculadora de Fertilizantes",
+        width: "287",
+        height: "607"
+      },
       captures:
-        "No se agregaron capturas reales en esta versión. La tarjeta está preparada para incorporar imágenes del flujo móvil cuando estén disponibles."
+        "Captura real de la aplicación móvil integrada en el portafolio."
     }
   };
 
@@ -94,6 +112,7 @@ document.addEventListener("DOMContentLoaded", () => {
     role: modal.querySelector("#case-role"),
     features: modal.querySelector("#case-features"),
     tech: modal.querySelector("#case-tech"),
+    image: modal.querySelector("#case-image"),
     captures: modal.querySelector("#case-captures")
   };
 
@@ -124,6 +143,10 @@ document.addEventListener("DOMContentLoaded", () => {
     fields.solution.textContent = caseStudy.solution;
     fields.role.textContent = caseStudy.role;
     fields.captures.textContent = caseStudy.captures;
+    fields.image.src = caseStudy.image.src;
+    fields.image.alt = caseStudy.image.alt;
+    fields.image.width = caseStudy.image.width;
+    fields.image.height = caseStudy.image.height;
     renderList(fields.features, caseStudy.features, "li");
     renderList(fields.tech, caseStudy.tech, "span");
 
