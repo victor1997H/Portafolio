@@ -5,9 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Portafolio profesional de Víctor Daniel Hualpa Yaqueno, desarrollador de software frontend y backend."
+      content="Desarrollo de sistemas web, aplicaciones personalizadas, automatización, bases de datos y despliegue de soluciones para negocios."
     />
-    <title>Víctor Daniel Hualpa | Portafolio</title>
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Víctor Hualpa | Desarrollo de Software y Sistemas Web"
+    />
+    <meta
+      property="og:description"
+      content="Sistemas web, aplicaciones personalizadas, automatización de procesos, bases de datos y publicación de soluciones para negocios."
+    />
+    <meta property="og:locale" content="es_EC" />
+    <meta name="twitter:card" content="summary" />
+    <title>Víctor Hualpa | Desarrollo de Software y Sistemas Web</title>
+    <link rel="icon" href="data:," />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,46 +29,368 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
     <header class="site-header">
       <div class="container nav">
-        <a href="#inicio" class="brand">Víctor Daniel Hualpa Yaqueno</a>
+        <a href="#inicio" class="brand" aria-label="Ir al inicio">Víctor Hualpa</a>
         <nav class="nav-menu" aria-label="Navegación principal">
           <a href="#inicio">Inicio</a>
-          <a href="#sobre-mi">Sobre mí</a>
           <a href="#servicios">Servicios</a>
           <a href="#proyectos">Proyectos</a>
+          <a href="#como-trabajo">Cómo trabajo</a>
+          <a href="#sobre-mi">Sobre mí</a>
           <a href="#tecnologias">Tecnologías</a>
           <a href="#contacto">Contacto</a>
         </nav>
-        <a href="#contacto" class="btn btn-primary btn-small">Contactarme</a>
+        <a
+          href="https://wa.me/593987545679?text=Hola%20V%C3%ADctor%2C%20vi%20tu%20portafolio%20y%20quisiera%20conversar%20sobre%20un%20sistema%20para%20mi%20negocio."
+          class="btn btn-primary btn-small"
+          target="_blank"
+          rel="noreferrer"
+        >
+          WhatsApp
+        </a>
       </div>
     </header>
 
-    <main>
+    <main id="contenido">
       <section id="inicio" class="hero">
         <div class="container hero-content">
           <div class="hero-text">
-            <p class="eyebrow">Portafolio profesional</p>
-            <h1>Víctor Daniel Hualpa Yaqueno</h1>
-            <h2>Desarrollador de Software | Frontend &amp; Backend</h2>
+            <p class="eyebrow">Desarrollo de software para negocios</p>
+            <h1>Desarrollo sistemas web para organizar y automatizar negocios</h1>
             <p class="lead">
-              Desarrollo soluciones web personalizadas y las dejo listas para funcionar
+              Creo aplicaciones y sistemas personalizados para gestionar procesos,
+              información y operaciones de negocios, y los dejo listos para funcionar
               en Internet.
             </p>
-            <div class="hero-actions">
+            <p class="hero-name">
+              Víctor Daniel Hualpa Yaqueno · Frontend, backend, bases de datos y
+              despliegue.
+            </p>
+            <div class="hero-actions" aria-label="Acciones principales">
               <a href="#proyectos" class="btn btn-primary">Ver proyectos</a>
-              <a href="#contacto" class="btn btn-secondary">Contactarme</a>
+              <a
+                href="https://wa.me/593987545679?text=Hola%20V%C3%ADctor%2C%20vi%20tu%20portafolio%20y%20quisiera%20conversar%20sobre%20un%20sistema%20para%20mi%20negocio."
+                class="btn btn-secondary"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Cuéntame tu proyecto
+              </a>
             </div>
           </div>
 
-          <div class="hero-card" aria-label="Resumen profesional">
-            <div class="card-badge">Disponible para proyectos</div>
-            <ul>
-              <li>Páginas web modernas</li>
-              <li>Sistemas web funcionales</li>
-              <li>Publicación y despliegue</li>
-              <li>Soluciones a medida</li>
-            </ul>
+          <div
+            class="hero-panel"
+            role="img"
+            aria-label="Resumen visual de una idea convertida en un sistema funcionando en Internet"
+          >
+            <div class="system-preview">
+              <div class="system-preview__top">
+                <span></span>
+                <span></span>
+                <span></span>
+              </div>
+              <div class="system-preview__body">
+                <div class="system-preview__sidebar"></div>
+                <div class="system-preview__content">
+                  <div class="metric-row">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <div class="chart-line"></div>
+                  <div class="table-lines">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hero-panel__content">
+              <span class="card-badge">De la necesidad al sistema publicado</span>
+              <ul>
+                <li>Análisis del proceso y alcance</li>
+                <li>Interfaz, lógica, API y base de datos</li>
+                <li>Publicación, dominio, HTTPS y soporte</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="valor" class="section value-section">
+        <div class="container value-grid">
+          <div class="section-heading">
+            <p class="eyebrow">Soluciones para negocios</p>
+            <h2>¿Necesitas organizar o automatizar tu negocio?</h2>
+          </div>
+          <div class="value-content">
+            <p>
+              Muchos negocios empiezan manejando información en Excel, registros
+              manuales, varios archivos o procesos repetitivos. Eso puede funcionar por
+              un tiempo, pero cuando el trabajo crece suele hacer falta una solución más
+              ordenada.
+            </p>
+            <p>
+              Puedo ayudarte a convertir ese proceso en una aplicación personalizada,
+              con datos centralizados, usuarios, reportes y flujos pensados para tu
+              forma real de trabajar.
+            </p>
+            <div class="process-tags" aria-label="Ejemplos de procesos que se pueden organizar">
+              <span>Inventario</span>
+              <span>Ventas</span>
+              <span>Compras</span>
+              <span>Clientes</span>
+              <span>Proveedores</span>
+              <span>Cobranza</span>
+              <span>Reportes</span>
+              <span>Usuarios</span>
+              <span>Procesos internos</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="servicios" class="section section-alt">
+        <div class="container">
+          <div class="section-heading section-heading--center">
+            <p class="eyebrow">Servicios</p>
+            <h2>Soluciones digitales enfocadas en resolver procesos reales</h2>
+            <p>
+              Desarrollo herramientas claras y funcionales para que tu negocio trabaje
+              con información organizada y procesos más fáciles de gestionar.
+            </p>
+          </div>
+
+          <div class="services-grid">
+            <article class="service-card">
+              <span class="service-number">01</span>
+              <h3>Sistemas para negocios</h3>
+              <p>
+                Aplicaciones para ordenar operaciones como inventario, ventas, compras,
+                clientes, proveedores, reportes, usuarios y permisos.
+              </p>
+            </article>
+            <article class="service-card">
+              <span class="service-number">02</span>
+              <h3>Aplicaciones web personalizadas</h3>
+              <p>
+                Desarrollo sistemas adaptados al proceso de cada cliente, con interfaz,
+                lógica, API y base de datos según el alcance definido.
+              </p>
+            </article>
+            <article class="service-card">
+              <span class="service-number">03</span>
+              <h3>Páginas web empresariales</h3>
+              <p>
+                Páginas modernas para presentar tu negocio, servicios, productos,
+                información importante y canales de contacto.
+              </p>
+            </article>
+            <article class="service-card">
+              <span class="service-number">04</span>
+              <h3>Automatización de procesos</h3>
+              <p>
+                Soluciones para disminuir tareas repetitivas, conectar etapas del trabajo
+                y mantener la información más consistente.
+              </p>
+            </article>
+            <article class="service-card service-card--wide">
+              <span class="service-number">05</span>
+              <h3>Publicación, servidores y soporte</h3>
+              <p>
+                Preparo el sistema para producción, base de datos, Docker, servidor/VPS,
+                dominio, HTTPS, publicación y mantenimiento según lo acordado.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section">
+        <div class="container">
+          <div class="section-heading section-heading--center">
+            <p class="eyebrow">Proyectos reales</p>
+            <h2>Sistemas y aplicaciones que he desarrollado</h2>
+            <p>
+              Una muestra de soluciones desarrolladas para diferentes necesidades y
+              escenarios, sin exponer información privada ni datos sensibles.
+            </p>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div
+                class="project-visual project-visual--cobros"
+                aria-label="Espacio preparado para una captura real del Sistema de Cobros Predictivo"
+              >
+                <div class="project-visual__window">
+                  <span class="project-visual__label">Captura pendiente</span>
+                  <div class="project-visual__bars">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>Sistema de Cobros Predictivo</h3>
+                <p>
+                  Plataforma web desarrollada para centralizar y gestionar información
+                  relacionada con clientes, préstamos, cuotas y procesos de cobranza.
+                </p>
+                <ul class="feature-list">
+                  <li>Frontend y backend con API REST</li>
+                  <li>Autenticación, seguridad y base de datos</li>
+                  <li>Contenerización, publicación y automatización</li>
+                </ul>
+                <div class="tags" aria-label="Tecnologías del proyecto">
+                  <span>Angular</span>
+                  <span>TypeScript</span>
+                  <span>NestJS</span>
+                  <span>Node.js</span>
+                  <span>PostgreSQL</span>
+                  <span>Docker</span>
+                  <span>Traefik</span>
+                  <span>n8n</span>
+                </div>
+                <button
+                  class="btn btn-secondary btn-small"
+                  type="button"
+                  data-case="cobros"
+                  aria-haspopup="dialog"
+                >
+                  Ver caso de estudio
+                </button>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div
+                class="project-visual project-visual--dental"
+                aria-label="Espacio preparado para una captura real del Sistema de Gestión para Consultorio Dental"
+              >
+                <div class="project-visual__window">
+                  <span class="project-visual__label">Captura pendiente</span>
+                  <div class="project-visual__dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>Sistema de Gestión para Consultorio Dental</h3>
+                <p>
+                  Aplicación orientada a facilitar la organización y gestión digital de
+                  un consultorio dental.
+                </p>
+                <ul class="feature-list">
+                  <li>Aplicación conectada con API REST</li>
+                  <li>Autenticación y contraseñas almacenadas de forma segura</li>
+                  <li>Persistencia de información en base de datos</li>
+                </ul>
+                <div class="tags" aria-label="Tecnologías del proyecto">
+                  <span>Flutter</span>
+                  <span>Flask</span>
+                  <span>PostgreSQL</span>
+                  <span>API REST</span>
+                </div>
+                <button
+                  class="btn btn-secondary btn-small"
+                  type="button"
+                  data-case="dental"
+                  aria-haspopup="dialog"
+                >
+                  Ver caso de estudio
+                </button>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div
+                class="project-visual project-visual--fertilizantes"
+                aria-label="Espacio preparado para una captura real de la Calculadora de Fertilizantes"
+              >
+                <div class="project-visual__phone">
+                  <span class="project-visual__label">Captura pendiente</span>
+                  <div class="project-visual__result"></div>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3>Calculadora de Fertilizantes</h3>
+                <p>
+                  Aplicación móvil desarrollada para realizar cálculos relacionados con
+                  fertilización a partir de información de nutrientes, dimensiones de
+                  parcela y fertilizantes.
+                </p>
+                <ul class="feature-list">
+                  <li>Niveles de nutrientes y dimensiones de parcela</li>
+                  <li>Selección y listado de fertilizantes</li>
+                  <li>Detalle del cálculo y presentación de resultados</li>
+                </ul>
+                <div class="tags" aria-label="Tecnologías del proyecto">
+                  <span>React Native</span>
+                  <span>Expo</span>
+                  <span>JavaScript</span>
+                </div>
+                <button
+                  class="btn btn-secondary btn-small"
+                  type="button"
+                  data-case="fertilizantes"
+                  aria-haspopup="dialog"
+                >
+                  Ver caso de estudio
+                </button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="como-trabajo" class="section section-alt">
+        <div class="container">
+          <div class="section-heading section-heading--center">
+            <p class="eyebrow">Cómo trabajo</p>
+            <h2>¿Cómo desarrollo tu sistema?</h2>
+          </div>
+
+          <div class="steps-grid">
+            <article class="step-card">
+              <span>01</span>
+              <h3>Cuéntame tu necesidad</h3>
+              <p>Analizamos qué problema deseas resolver.</p>
+            </article>
+            <article class="step-card">
+              <span>02</span>
+              <h3>Definimos la solución</h3>
+              <p>Establecemos funciones, procesos y alcance.</p>
+            </article>
+            <article class="step-card">
+              <span>03</span>
+              <h3>Desarrollo</h3>
+              <p>Construyo la aplicación y su base de datos.</p>
+            </article>
+            <article class="step-card">
+              <span>04</span>
+              <h3>Pruebas</h3>
+              <p>Verifico funcionamiento y corrijo problemas.</p>
+            </article>
+            <article class="step-card">
+              <span>05</span>
+              <h3>Publicación</h3>
+              <p>Preparo y publico el sistema para que pueda utilizarse en Internet.</p>
+            </article>
+            <article class="step-card">
+              <span>06</span>
+              <h3>Soporte</h3>
+              <p>Brindo orientación, mantenimiento y soporte según lo acordado.</p>
+            </article>
           </div>
         </div>
       </section>
@@ -65,203 +399,188 @@
         <div class="container">
           <div class="section-heading">
             <p class="eyebrow">Sobre mí</p>
-            <h3>Creo aplicaciones web que resuelven problemas reales.</h3>
+            <h2>Desarrollo soluciones completas, desde la interfaz hasta la publicación</h2>
           </div>
 
           <div class="about-grid">
             <div class="about-text">
               <p>
-                Soy desarrollador de software y me enfoco en crear aplicaciones web que
-                sean útiles, claras y fáciles de usar para las personas.
+                Soy Víctor Daniel Hualpa Yaqueno, desarrollador de software. Trabajo en
+                aplicaciones que ayudan a organizar información, mejorar procesos y
+                poner herramientas digitales al alcance de negocios y usuarios.
               </p>
               <p>
-                Trabajo tanto en la parte visual de la aplicación como en la lógica que
-                hace que funcione correctamente. También me encargo de la conexión con
-                bases de datos, la lógica del negocio y la publicación del sistema para
-                que quede disponible en Internet.
+                Puedo participar en distintas etapas de una solución: diseño de la
+                interfaz, desarrollo frontend, backend, APIs, lógica del sistema,
+                conexión con bases de datos y preparación para que la aplicación quede
+                funcionando en Internet.
               </p>
               <p>
-                Mi objetivo es desarrollar soluciones prácticas, ordenadas y listas para
-                ser utilizadas por clientes y usuarios finales sin complicaciones.
+                Mi enfoque es entender la necesidad, construir una solución clara y
+                entregar un sistema que pueda usarse de forma práctica.
               </p>
             </div>
 
-            <div class="about-box">
-              <h4>En lo que trabajo</h4>
+            <aside class="about-box" aria-label="Alcance de trabajo">
+              <h3>Qué puedo cubrir</h3>
               <ul>
-                <li>Interfaces limpias y fáciles de entender</li>
-                <li>Lógica de negocio y procesos del sistema</li>
-                <li>Integración con bases de datos</li>
-                <li>Publicación de aplicaciones en Internet</li>
+                <li>Interfaz y experiencia de usuario</li>
+                <li>Frontend, backend y APIs</li>
+                <li>Bases de datos y lógica de negocio</li>
+                <li>Publicación, mantenimiento y soporte</li>
               </ul>
-            </div>
+            </aside>
           </div>
         </div>
       </section>
 
-      <section id="servicios" class="section section-alt">
+      <section id="tecnologias" class="section section-compact section-alt">
         <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Servicios</p>
-            <h3>Soluciones web para proyectos reales.</h3>
-          </div>
-
-          <div class="services-grid">
-            <article class="service-card">
-              <h4>Páginas web</h4>
-              <p>Presencia digital clara, moderna y pensada para presentar tu negocio o marca.</p>
-            </article>
-            <article class="service-card">
-              <h4>Aplicaciones web</h4>
-              <p>Herramientas digitales con funciones específicas para procesos y usuarios.</p>
-            </article>
-            <article class="service-card">
-              <h4>Soluciones personalizadas</h4>
-              <p>Desarrollo a medida según las necesidades del cliente y su forma de trabajo.</p>
-            </article>
-            <article class="service-card">
-              <h4>Automatización de procesos</h4>
-              <p>Reducir tareas repetitivas y mejorar la eficiencia con sistemas inteligentes.</p>
-            </article>
-            <article class="service-card">
-              <h4>Bases de datos</h4>
-              <p>Estructuración y organización de la información para que el sistema funcione bien.</p>
-            </article>
-            <article class="service-card">
-              <h4>Publicación de sistemas</h4>
-              <p>Dejo la aplicación lista para que esté disponible en Internet de forma segura.</p>
-            </article>
-            <article class="service-card">
-              <h4>Despliegue de aplicaciones</h4>
-              <p>Configuración y publicación para que el proyecto quede operativo y accesible.</p>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="proyectos" class="section">
-        <div class="container">
-          <div class="section-heading">
-            <p class="eyebrow">Proyectos</p>
-            <h3>Trabajos que muestran mi enfoque y estilo.</h3>
-          </div>
-
-          <div class="projects-grid">
-            <article class="project-card">
-              <div class="project-image placeholder">
-                <span>Imagen del proyecto</span>
-              </div>
-              <div class="project-content">
-                <h4>Proyecto 1</h4>
-                <p>Descripción breve del proyecto, la necesidad que resuelve y el valor que aporta.</p>
-                <div class="tags">
-                  <span>HTML</span>
-                  <span>CSS</span>
-                  <span>JavaScript</span>
-                </div>
-                <div class="project-actions">
-                  <a href="#" class="btn btn-primary btn-small">Ver proyecto</a>
-                  <a href="#" class="btn btn-secondary btn-small">Ver código</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-image placeholder">
-                <span>Imagen del proyecto</span>
-              </div>
-              <div class="project-content">
-                <h4>Proyecto 2</h4>
-                <p>Descripción breve del proyecto, la necesidad que resuelve y el valor que aporta.</p>
-                <div class="tags">
-                  <span>React</span>
-                  <span>Node.js</span>
-                  <span>PostgreSQL</span>
-                </div>
-                <div class="project-actions">
-                  <a href="#" class="btn btn-primary btn-small">Ver proyecto</a>
-                  <a href="#" class="btn btn-secondary btn-small">Ver código</a>
-                </div>
-              </div>
-            </article>
-
-            <article class="project-card">
-              <div class="project-image placeholder">
-                <span>Imagen del proyecto</span>
-              </div>
-              <div class="project-content">
-                <h4>Proyecto 3</h4>
-                <p>Descripción breve del proyecto, la necesidad que resuelve y el valor que aporta.</p>
-                <div class="tags">
-                  <span>Laravel</span>
-                  <span>MySQL</span>
-                  <span>Docker</span>
-                </div>
-                <div class="project-actions">
-                  <a href="#" class="btn btn-primary btn-small">Ver proyecto</a>
-                  <a href="#" class="btn btn-secondary btn-small">Ver código</a>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-
-      <section id="tecnologias" class="section section-alt">
-        <div class="container">
-          <div class="section-heading">
+          <div class="section-heading section-heading--center">
             <p class="eyebrow">Tecnologías</p>
-            <h3>Herramientas con las que trabajo.</h3>
+            <h2>Herramientas con las que trabajo</h2>
           </div>
 
-          <div class="tech-grid" aria-label="Tecnologías">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>TypeScript</span>
-            <span>React</span>
-            <span>Angular</span>
-            <span>Next.js</span>
-            <span>Node.js</span>
-            <span>NestJS</span>
-            <span>Laravel</span>
-            <span>PostgreSQL</span>
-            <span>MySQL</span>
-            <span>Docker</span>
-            <span>Git</span>
-            <span>GitHub</span>
+          <div class="tech-groups" aria-label="Tecnologías">
+            <section class="tech-group" aria-labelledby="tech-frontend">
+              <h3 id="tech-frontend">Frontend y móvil</h3>
+              <div class="tech-grid">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>TypeScript</span>
+                <span>React</span>
+                <span>React Native</span>
+                <span>Angular</span>
+                <span>Next.js</span>
+              </div>
+            </section>
+            <section class="tech-group" aria-labelledby="tech-backend">
+              <h3 id="tech-backend">Backend y datos</h3>
+              <div class="tech-grid">
+                <span>Node.js</span>
+                <span>NestJS</span>
+                <span>Laravel</span>
+                <span>Flask</span>
+                <span>PostgreSQL</span>
+                <span>MySQL</span>
+              </div>
+            </section>
+            <section class="tech-group" aria-labelledby="tech-deploy">
+              <h3 id="tech-deploy">Despliegue y control</h3>
+              <div class="tech-grid">
+                <span>Docker</span>
+                <span>Git</span>
+                <span>GitHub</span>
+              </div>
+            </section>
           </div>
         </div>
       </section>
 
       <section id="contacto" class="section contact-section">
         <div class="container contact-box">
-          <div>
+          <div class="contact-copy">
             <p class="eyebrow">Contacto</p>
-            <h3>Hablemos sobre tu proyecto.</h3>
+            <h2>¿Tienes una idea o necesitas un sistema para tu negocio?</h2>
+            <p>
+              Cuéntame qué necesitas y revisemos qué solución se puede desarrollar para
+              tu proyecto o negocio.
+            </p>
+            <a
+              href="https://wa.me/593987545679?text=Hola%20V%C3%ADctor%2C%20vi%20tu%20portafolio%20y%20quisiera%20conversar%20sobre%20un%20sistema%20para%20mi%20negocio."
+              class="btn btn-whatsapp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Hablar por WhatsApp
+            </a>
           </div>
 
-          <div class="contact-list">
+          <address class="contact-list">
             <p>
-              <strong>WhatsApp:</strong>
-              <a href="https://wa.me/593987545679" target="_blank" rel="noreferrer">+593 98 754 5679</a>
+              <strong>WhatsApp</strong>
+              <a
+                href="https://wa.me/593987545679?text=Hola%20V%C3%ADctor%2C%20vi%20tu%20portafolio%20y%20quisiera%20conversar%20sobre%20un%20sistema%20para%20mi%20negocio."
+                target="_blank"
+                rel="noreferrer"
+              >
+                +593 98 754 5679
+              </a>
             </p>
             <p>
-              <strong>GitHub:</strong>
-              <a href="https://github.com/victor1997H" target="_blank" rel="noreferrer">github.com/victor1997H</a>
+              <strong>GitHub</strong>
+              <a href="https://github.com/victor1997H" target="_blank" rel="noreferrer">
+                github.com/victor1997H
+              </a>
             </p>
-            <p><strong>Correo:</strong> hualpa685@gmail.com</p>
-          </div>
+            <p>
+              <strong>Correo</strong>
+              <a href="mailto:hualpa685@gmail.com">hualpa685@gmail.com</a>
+            </p>
+          </address>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
       <div class="container footer-content">
-        <p>© 2026 Víctor Daniel Hualpa</p>
-        <p>Desarrollador de software</p>
+        <p data-current-year>© 2026 Víctor Daniel Hualpa</p>
+        <p>Desarrollo de software y sistemas web</p>
       </div>
     </footer>
+
+    <a
+      href="https://wa.me/593987545679?text=Hola%20V%C3%ADctor%2C%20vi%20tu%20portafolio%20y%20quisiera%20conversar%20sobre%20un%20sistema%20para%20mi%20negocio."
+      class="whatsapp-float"
+      target="_blank"
+      rel="noreferrer"
+      aria-label="Hablar por WhatsApp con Víctor"
+    >
+      <span aria-hidden="true">WA</span>
+    </a>
+
+    <dialog class="case-modal" id="case-study-modal" aria-labelledby="case-title">
+      <div class="case-modal__content">
+        <button class="case-modal__close" type="button" aria-label="Cerrar caso de estudio">
+          ×
+        </button>
+        <p class="eyebrow" id="case-category">Caso de estudio</p>
+        <h2 id="case-title"></h2>
+        <p class="case-modal__lead" id="case-summary"></p>
+
+        <div class="case-detail-grid">
+          <section>
+            <h3>Descripción del proyecto</h3>
+            <p id="case-description"></p>
+          </section>
+          <section>
+            <h3>Problema o necesidad</h3>
+            <p id="case-problem"></p>
+          </section>
+          <section>
+            <h3>Solución desarrollada</h3>
+            <p id="case-solution"></p>
+          </section>
+          <section>
+            <h3>Mi participación</h3>
+            <p id="case-role"></p>
+          </section>
+          <section>
+            <h3>Funcionalidades / capacidades reales</h3>
+            <ul id="case-features"></ul>
+          </section>
+          <section>
+            <h3>Tecnologías</h3>
+            <div class="tags" id="case-tech"></div>
+          </section>
+          <section class="case-captures">
+            <h3>Capturas</h3>
+            <p id="case-captures"></p>
+          </section>
+        </div>
+      </div>
+    </dialog>
 
     <script src="script.js"></script>
   </body>
